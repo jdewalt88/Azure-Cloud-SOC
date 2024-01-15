@@ -13,9 +13,12 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Set up of Virtual Machines 
+## Set up of Virtual Machines & remove firewalls for attack simulation
 - Set up multiple VMs to run unprotected in the cloud.
-- Removed the firewall retrictions to allow all inbound traffic
+- connected to the VMs via RDP.
+- Removed the firewall retrictions to allow all inbound traffic in order to create alerts ( This allows me to practice triageing and responding to events that are logged to the SIEM).
+- The above is done bt typing WF.MSC in the windows search bar and click windows defender firewall properties.
+- Turning off the firewall allows bad actors to discover the VM and try to use their TTPs to access the machine/network.
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
