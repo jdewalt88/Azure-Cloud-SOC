@@ -1,5 +1,5 @@
 # Azure-Cloud-SOC
-Spun up cloud instances and operated a Security operation center.
+Spun up cloud instances and operated a Security operation center in the cloud if over 3 dozen VMs to simulate attacks, end users and other endpoints on a newtork.
 # Building a SOC + Honeynet in Azure (Live Traffic)
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
